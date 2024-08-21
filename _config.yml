@@ -1,7 +1,7 @@
 # Basic site settings
 title: C++ Guide
 description: Comprehensive C++ documentation and resources.
-url: https://otabekoff.github.io/cpp
+url: https://otabekoff.github.io
 baseurl: "/cpp"
 
 # Theme settings
