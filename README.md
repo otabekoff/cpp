@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+permalink: /cpp/
+---
+
 # cpp
 **Comprehensive C++ documentation and resources.**
 
