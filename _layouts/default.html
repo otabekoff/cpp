@@ -2,20 +2,18 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <!-- Include custom CSS if needed -->
-  {% if site.css %}
-    <link rel="stylesheet" href="{{ site.css | relative_url }}">
-  {% endif %}
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <!-- Include Cayman theme's default CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <!-- Add your custom CSS if needed -->
+  <link rel="stylesheet" href="{{ "/assets/custom.css" | relative_url }}">
 </head>
 <body>
   <header>
     <nav>
       <ul>
-        {% for item in site.navbar %}
-          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-        {% endfor %}
+        <li><a href="{{ "/" | relative_url }}">Home</a></li>
+        <li><a href="{{ "/blog" | relative_url }}">Blog</a></li>
       </ul>
     </nav>
   </header>
