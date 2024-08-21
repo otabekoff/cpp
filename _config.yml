@@ -6,6 +6,9 @@ baseurl: "/cpp"
 
 # Theme settings
 theme: jekyll-theme-cayman
+# Add this if you're using a custom CSS file
+css: custom.css
+
 
 # Social media links
 social_links:
