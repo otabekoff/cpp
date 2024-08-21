@@ -2,7 +2,7 @@
 title: C++ Guide
 description: Comprehensive C++ documentation and resources.
 url: https://otabekoff.github.io/cpp
-baseurl: "cpp"
+baseurl: "/cpp"
 
 # Theme settings
 theme: jekyll-theme-cayman
