@@ -1,1 +1,57 @@
+# Basic site settings
+title: C++ Guide
+description: Comprehensive C++ documentation and resources.
+url: https://otabekoff.github.io/cpp
+#baseurl: "cpp" # Leave empty if your site is at the root of the domain
+
+# Theme settings
 theme: jekyll-theme-cayman
+
+# Social media links
+social_links:
+  - title: GitHub
+    url: https://github.com/<username>
+  - title: Twitter
+    url: https://twitter.com/<username>
+  - title: LinkedIn
+    url: https://linkedin.com/in/<username>
+
+# Navigation settings
+navbar:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+
+# Other Jekyll settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Google Analytics
+# Uncomment and replace with your Google Analytics tracking ID
+# google_analytics:
+#   tracking_id: "UA-XXXXXXXXX-X"
+
+# Google Fonts (Optional)
+# Uncomment and replace with the Google Fonts you want to use
+# google_fonts:
+#   - "Open Sans"
+#   - "Roboto"
+
+# Exclude files and directories from being processed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Permalinks
+permalink: pretty
